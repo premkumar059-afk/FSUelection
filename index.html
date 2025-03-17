@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Yadav - FSU President Candidate</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@0.292.0/lucide-icons.min.css">
+    <style>
+    .hero {
+        background-image: url('images/mmamc college img.jpg'); /* Use the relative path */
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    /* ... your other CSS ... */
+</style>
+</head>
+<body class="bg-gray-50">
+
+    <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white shadow-md py-2">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <span class="text-xl font-bold text-red-800">Rohit Yadav</span>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#hero" class="text-sm font-medium transition-colors text-gray-700 hover:text-red-600">Home</a>
+                <a href="#about" class="text-sm font-medium transition-colors text-gray-700 hover:text-red-600">About</a>
+                <a href="#vision" class="text-sm font-medium transition-colors text-red-600 border-b-2 border-blue-600">Vision</a>
+                <a href="#contact" class="text-sm font-medium transition-colors text-gray-700 hover:text-red-600">Contact</a>
+                <a href="#suggestion" class="text-sm font-medium transition-colors text-gray-700 hover:text-red-600">Suggestion</a>
+                <div class="animate-pulse flex items-center">
+                    <span class="text-sm font-bold text-red-600 border border-red-600 rounded-full px-3 py-1">Vote Akhil Krantikari</span>
+                </div>
+            </nav>
+            <button class="md:hidden text-gray-700" id="mobile-menu-button">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+        <div class="md:hidden hidden bg-gray-100 py-2" id="mobile-menu">
+            <div class="container mx-auto px-4 flex flex-col items-center">
+                <a href="#hero" class="block py-2 text-sm font-medium transition-colors text-gray-700 hover:text-red-600">Home</a>
+                <a href="#about" class="block py-2 text-sm font-medium transition-colors text-gray-700 hover:text-red-600">About</a>
+                <a href="#vision" class="block py-2 text-sm font-medium transition-colors text-red-600">Vision</a>
+                <a href="#contact" class="block py-2 text-sm font-medium transition-colors text-gray-700 hover:text-red-600">Contact</a>
+                <a href="#suggestion" class="block py-2 text-sm font-medium transition-colors text-gray-700 hover:text-red-600">Suggestion</a>
+                <div class="mt-2 animate-pulse flex items-center">
+                    <span class="text-sm font-bold text-red-600 border border-red-600 rounded-full px-3 py-1">Vote Akhil Krantikari</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero relative min-h-screen flex items-center justify-center text-white">
+            <div class="container mx-auto px-4 z-10 text-center">
+                <div class="mb-8">
+                    <h3 class="text-xl md:text-2xl font-semibold mt-2">Morang Aadarsha Multiple Campus,Biratnagar</h3>
+                </div>
+                <div class="animate-bounce inline-block mb-6 p-3 rounded-full bg-blue-600">
+                    <i data-lucide="vote" class="w-8 h-8 text-white"></i>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">Rohit Yadav</h1>
+                <h2 class="text-2xl md:text-3xl font-semibold mb-6">Candidate for FSU President</h2>
+                <p class="text-xl md:text-2xl mb-8">Free Student Union Elections 2025</p>
+                <div class="flex flex-col md:flex-row justify-center gap-4 mb-12">
+                    <a href="#vision" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-colors">My Vision</a>
+                    <a href="#contact" class="bg-transparent hover:bg-white hover:text-red-700 text-white font-bold py-3 px-8 rounded-full border-2 border-white transition-colors">Contact Me</a>
+                </div>
+                <div class="animate-pulse">
+                    <p class="text-lg mb-2">Learn More</p>
+                    <a href="#about" aria-label="Scroll to about section">
+                        <i data-lucide="chevron-down" class="w-8 h-8 text-white"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-red-800 mb-4">About Me</h2>
+                    <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                    <p class="text-gray-600 max-w-3xl mx-auto">
+A passionate student at Mahendra Morang Aadarsha Multiple Campus,Biratnagar committed to leadership and improving student life. Dedicated to addressing real issues and building a better future for all.</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="md:w-1/3">
+                        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                            <img src="C:\Users\Happy Dev\OneDrive\Desktop\MMAMC Election\website\images\Rohit.png" alt="Rohit yadav" class="w-full h-70 object-cover">
+                            <div class="p-6">
+                                <h3 class="text-2xl font-bold text-red-800 mb-2">Rohit Yadav</h3>
+                                <p class="text-gray-600 mb-4">Civil Engineering Student</p>
+                                <div class="flex items-center text-gray-700 mb-2">
+                                    <i data-lucide="graduation-cap" class="w-5 h-5 mr-2"></i>
+                                    <span>Mahendra morang adarsha multiple campus, Biratnagar</span>
+                                </div>
+                                <div class="flex items-center text-gray-700 mb-2">
+                                    <i data-lucide="award" class="w-5 h-5 mr-2"></i>
+                                    <span>FSU Presidential Candidate</span>
+                                </div>
+                                <div class="flex items-center text-gray-700 mb-2">
+                                    <i data-lucide="users" class="w-5 h-5 mr-2"></i>
+                                    <span>Student Advocate</span>
+                                </div>
+                                <div class="flex items-center text-gray-700">
+                                    <i data-lucide="briefcase" class="w-5 h-5 mr-2"></i>
+                                    <span>Future Civil Engineer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-2/3">
+                        <div class="bg-white rounded-lg shadow-lg p-8">
+                            <h3 class="text-3xl font-bold text-red-800 mb-4">My Journey</h3>
+                            <p class="text-gray-700 text-2xl mb-4">I’m Rohit Yadav, a student at Mahendra Morang Aadarsha Bahumukhi Campus, and like all of you, I dream of a better, more vibrant campus. My academic journey has taken me through Microbiology and BASW, and I’m currently pursuing BBS — adapting to changes, but never losing focus on my goals..</p>
+                            <p class="text-gray-700 text-2xl mb-4">More than just attending classes, I’ve always believed in stepping up for what matters. I worked to solve the BBA faculty’s book shortage and took the lead in organizing the BSc orientation program. I’ve stood with students during every movement, voicing our concerns and making sure our demands were heard through press statements. These experiences have taught me that true leadership isn’t about promises — it’s about action..</p>
+                            <p class="text-gray-700 text-2xl mb-4">If I earn your trust, I’m committed to real changes. I will work to establish a Health Post on campus, ensuring we all have access to basic healthcare. I plan to improve classroom conditions, secure sports areas, and push for bus services to make commuting easier. Strengthening hostel management and ensuring practical materials for science students are also at the top of my list.
+
+My goal is simple — to build a campus where every student feels heard, where problems are solved, and where we grow not just academically, but as a community.
+
+With your support, we can turn these ideas into reality. Let’s move forward together. ✊
+
+</p>
+                            <h3 class="text-3xl font-bold text-red-800 mt-8 mb-4">Why I'm Running</h3>
+                            <p class="text-gray-700 text-2xl mb-4">I am running for FSU President because I believe in the power of our students and the untapped potential of our campus. I have experienced the struggles we face — from lacking proper facilities to the need for better career support — and I am determined to tackle these challenges with action, not just words.</p>
+                            <p class="text-gray-700 text-2xl">My candidacy is about bringing a fresh approach and real solutions. I am not here to make empty promises; I am here with a clear plan to create a better learning environment, strengthen student opportunities, and build a campus that empowers us all for a brighter future.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vision" class="py-16 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-red-800 mb-4">My Vision</h2>
+                    <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                    <p class="text-gray-600 max-w-3xl mx-auto">My plan for transforming Morang Aadarsha Multiple Campus,Biratnagar focuses on practical improvements that will enhance student life and academic experience.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                        <div class="flex justify-center mb-4">
+                            <i data-lucide="shield-check" class="w-10 h-10 text-red-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-red-800 mb-2 text-center">Transparent Administration</h3>
+                        <p class="text-gray-600 text-center">Ensure fair accounting of student funds with regular public audits and transparent decision-making processes.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                        <div class="flex justify-center mb-4">
+                            <i data-lucide="briefcase" class="w-10 h-10 text-red-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-red-800 mb-2 text-center">Internship &amp; Job Opportunities</h3>
+                        <p class="text-gray-600 text-center">Establish partnerships with industry leaders to provide internship and job placement opportunities for students.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                        <div class="flex justify-center mb-4">
+                            <i data-lucide="lightbulb" class="w-10 h-10 text-red-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-red-800 mb-2 text-center">Improved Lighting</h3>
+                        <p class="text-gray-600 text-center">Install adequate lighting throughout campus for safety and to facilitate evening study sessions.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                        <div class="flex justify-center mb-4">
+                            <i data-lucide="droplet" class="w-10 h-10 text-red-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-red-800 mb-2 text-center">Clean Drinking Water</h3>
+                        <p class="text-gray-600 text-center">Ensure access to clean drinking water with filtered water stations across campus.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                        <div class="flex justify-center mb-4">
+                            <i data-lucide="building2" class="w-10 h-10 text-red-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-red-800 mb-2 text-center">Better Facilities</h3>
+                        <p class="text-gray-600 text-center">Renovate toilets, improve canteen quality, and enhance common areas for student comfort.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                        <div class="flex justify-center mb-4">
+                            <i data-lucide="graduation-cap" class="w-10 h-10 text-red-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-red-800 mb-2 text-center">Academic Excellence</h3>
+                        <p class="text-gray-600 text-center">Advocate for improved teaching methods, updated curriculum, and better laboratory equipment.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                        <div class="flex justify-center mb-4">
+                            <i data-lucide="file-text" class="w-10 h-10 text-red-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-red-800 mb-2 text-center">Streamlined Administration</h3>
+                        <p class="text-gray-600 text-center">Simplify administrative processes for students, reducing bureaucracy and wait times.</p>
+                    </div>
+                    <div class="bg-white rounded-lg shadow-lg p-6 transition-transform hover:scale-105">
+                        <div class="flex justify-center mb-4">
+                            <i data-lucide="wifi" class="w-10 h-10 text-red-600"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-red-800 mb-2 text-center">Better Internet</h3>
+                        <p class="text-gray-600 text-center">Upgrade campus WiFi infrastructure for reliable, high-speed internet access throughout campus.</p>
+                    </div>
+                </div>
+                <div class="mt-16 bg-blue-800 text-white rounded-lg shadow-xl p-8">
+                    <h3 class="
+text-2xl font-bold mb-4 text-center">My Commitment to You</h3>
+                    <p class="mb-6 text-center">As your FSU President, I pledge to work tirelessly to implement these improvements and be a strong advocate for student rights and welfare. My administration will be characterized by:</p>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="bg-blue-700 rounded-lg p-6">
+                            <h4 class="text-xl font-bold mb-2 text-center">Transparency</h4>
+                            <p class="text-center">Regular updates on FSU activities, financial reports, and decision-making processes will be made available to all students.</p>
+                        </div>
+                        <div class="bg-blue-700 rounded-lg p-6">
+                            <h4 class="text-xl font-bold mb-2 text-center">Accountability</h4>
+                            <p class="text-center">I will take personal responsibility for the success of our initiatives and be answerable to the student body.</p>
+                        </div>
+                        <div class="bg-blue-700 rounded-lg p-6">
+                            <h4 class="text-xl font-bold mb-2 text-center">Inclusivity</h4>
+                            <p class="text-center">Every student's voice matters. I will ensure that all decisions consider the diverse needs of our student community.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-red-800 mb-4">Contact Me</h2>
+                    <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                    <p class="text-gray-600 max-w-3xl mx-auto">Have questions or want to discuss my vision for Morang Aadarsha Multiple Campus,Biratnagar? I'm always available to hear from fellow students.</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="md:w-1/2 bg-white rounded-lg shadow-lg p-8">
+                        <h3 class="text-2xl font-bold text-red-800 mb-6">Get in Touch</h3>
+                        <div class="flex items-start mb-6">
+                            <i data-lucide="phone" class="w-6 h-6 text-red-600 mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800 mb-1">Phone</h4>
+                                <p class="text-gray-600">+977 9825356103</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start mb-6">
+                            <i data-lucide="mail" class="w-6 h-6 text-red-600 mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800 mb-1">Email</h4>
+                                <p class="text-gray-600">rohityadav4fsu@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start mb-6">
+                            <i data-lucide="map-pin" class="w-6 h-6 text-red-600 mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-800 mb-1">Location</h4>
+                                <p class="text-gray-600">Morang Aadarsha Multiple Campus,Biratnagar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 bg-white rounded-lg shadow-lg p-8">
+                        <h3 class="text-2xl font-bold text-red-800 mb-6">Send a Message</h3>
+                        <form>
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Your Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Enter your email">
+                            </div>
+                            <div class="mb-4">
+                                <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                                <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Enter subject">
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Enter your message"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition-colors">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="suggestion" class="py-16 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-red-800 mb-4">Suggestions</h2>
+                    <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                    <p class="text-gray-600 max-w-3xl mx-auto">Your ideas matter! Share your suggestions for improving our campus and student life at IOE Purwanchal.</p>
+                </div>
+                <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-lg p-8">
+                    <h3 class="text-2xl font-bold text-red-800 mb-6">Submit Your Suggestion</h3>
+                    <form>
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Your Name (Optional)</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-4">
+                            <label for="department" class="block text-gray-700 font-medium mb-2">Department</label>
+                            <select id="department" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                                <option value="">Select your department</option>
+                                <option value="civil">Civil Engineering</option>
+                                <option value="electrical">Electrical Engineering</option>
+                                <option value="mechanical">Mechanical Engineering</option>
+                                <option value="computer">Computer Engineering</option>
+                                <option value="electronics">Electronics & Communication</option>
+                                <option value="architecture">Architecture</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label for="category" class="block text-gray-700 font-medium mb-2">Suggestion Category</label>
+                            <select id="category" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600">
+                                <option value="">Select a category</option>
+                                <option value="facilities">Facilities Improvement</option>
+                                <option value="academics">Academic Enhancement</option>
+                                <option value="events">Events & Activities</option>
+                                <option value="administration">Administration & Services</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="mb-6">
+                            <label for="suggestion" class="block text-gray-700 font-medium mb-2">Your Suggestion</label>
+                            <textarea id="suggestion" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Enter your suggestion"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition-colors">Submit Suggestion</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Rohit Yadav. All Rights Reserved.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="https://www.facebook.com/hunter.singh.144?mibextid=rS40aB7S9Ucbxw6v" target="_blank" rel="noopener noreferrer" class="hover:text-red-400">
+                    <i data-lucide="facebook" class="w-6 h-6"></i>
+                </a>
+                <a href="https://www.instagram.com/sabin_dhital_/" target="_blank" rel="noopener noreferrer" class="hover:text-pink-400">
+                    <i data-lucide="instagram" class="w-6 h-6"></i>
+                </a>
+
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-to-top" id="scroll-to-top">
+        <i data-lucide="arrow-up" class="w-6 h-6"></i>
+    </button>
+
+    <script src="https://unpkg.com/lucide@0.292.0/dist/umd/lucide.min.js"></script>
+    <script>
+        lucide.createIcons();
+
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        window.addEventListener('scroll', () => {
+            const scrollButton = document.getElementById('scroll-to-top');
+            if (window.scrollY > 300) {
+                scrollButton.classList.add('show');
+            } else {
+                scrollButton.classList.remove('show');
+            }
+        });
+
+        document.getElementById('scroll-to-top').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
